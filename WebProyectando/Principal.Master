@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.Master.cs" Inherits="WebProyectando.Bienvenida" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+                                    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+                                    <meta charset="utf-8" />
+                                        <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+                                        <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 90%;
+        }
+        .auto-style2 {
+            width: 100%;
+            background-color: #DFE6ED;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+        .auto-style4 {
+            height: 28px;
+        }
+        .auto-style5 {
+            width: 25%;
+        }
+        .auto-style6 {
+            width: 60%;
+        }
+        .auto-style7 {
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .auto-style8 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .auto-style9 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table align="center" class="auto-style1">
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="header" runat="server">
+                            <table align="center" class="auto-style2">
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style3">
+                                        <asp:Image ID="Image1" runat="server" Height="107px" ImageUrl="~/Imagenes/logoHorizontal.png" Width="292px" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style4"></td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style3" style="justify-content: center">
+                                        <table align="center" class="auto-style5">
+                                            <tr>
+                                                <td>
+                                                    <asp:Menu ID="navPrincipal" runat="server" Orientation="Horizontal" Style="align-self: center" Font-Names="Arial">
+                                                        <Items>
+                                                            <asp:MenuItem Selected="True" Text="Item1" Value="navItem1"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Item2" Value="navItem2"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Item3" Value="navItem3"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Item4" Value="navItem4"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Item5" Value="navItem5"></asp:MenuItem>
+                                                        </Items>
+                                                        <StaticMenuItemStyle HorizontalPadding="10px" Font-Names="Arial" Font-Underline="False" ForeColor="#293845" />
+                                                        <StaticSelectedStyle BorderColor="#FF3399" BorderStyle="None" Font-Underline="True" ForeColor="#BD34D1" Font-Bold="True" Font-Overline="False" />
+                                                    </asp:Menu>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="Body" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="Footer" runat="server">
+                            <table align="center" class="auto-style2">
+                                <tr>
+                                    <td>
+                                        <table align="center" class="auto-style6">
+                                            <tr>
+                                                <td class="auto-style8" colspan="2" style="font-family: arial, Helvetica, sans-serif; color: #293845">ELABORADO POR:</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style7" style="font-family: arial, Helvetica, sans-serif; color: #293845">Yulieth Marcela Urrego Restrepo&nbsp;&nbsp; </td>
+                                                <td class="auto-style9" style="font-family: arial, Helvetica, sans-serif; color: #293845">&nbsp;C.C: 1027740001&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style7" style="font-family: arial, Helvetica, sans-serif; color: #293845">Sergio Esteban Franco Agudelo&nbsp;&nbsp; </td>
+                                                <td class="auto-style9" style="font-family: arial, Helvetica, sans-serif; color: #293845">&nbsp;C.C: 1020424600&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="auto-style8" colspan="2" style="font-family: arial, Helvetica, sans-serif; color: #293845">Todos los derechos reservados ®</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
