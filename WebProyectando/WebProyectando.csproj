@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bienvenida.aspx" />
+    <Content Include="Detalle.aspx" />
     <Content Include="Proyecto_Modulo.aspx" />
     <Content Include="Proyecto.aspx" />
     <Content Include="Global.asax" />
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="Bienvenida.aspx.designer.cs">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle.aspx.cs">
+      <DependentUpon>Detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detalle.aspx.designer.cs">
+      <DependentUpon>Detalle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Proyecto_Modulo.aspx.cs">
       <DependentUpon>Proyecto_Modulo.aspx</DependentUpon>

@@ -184,3 +184,9 @@ C:\ITM\DesarrolloSoftware\Proyecto\WebProyectando\WebProyectando\obj\Debug\WebPr
 C:\ITM\DesarrolloSoftware\Proyecto\WebProyectando\WebProyectando\obj\Debug\WebProyectando.csproj.CopyComplete
 C:\ITM\DesarrolloSoftware\Proyecto\WebProyectando\WebProyectando\obj\Debug\WebProyectando.dll
 C:\ITM\DesarrolloSoftware\Proyecto\WebProyectando\WebProyectando\obj\Debug\WebProyectando.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libParametros.dll
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libConexionBD.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libLlenarCombos.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libLlenarGrids.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libLlenarRBList.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\libParametros.pdb
