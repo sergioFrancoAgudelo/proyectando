@@ -19,7 +19,7 @@
                                         </p>
                                     </td>
                                     <td class="auto-style13">
-                                        <asp:TextBox ID="TextBox1" runat="server" BorderColor="#C2CCD4" BorderStyle="Solid" Height="35px" Width="175px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox1" runat="server" BorderColor="#C2CCD4" BorderStyle="Solid" Height="35px" Width="200px"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -29,7 +29,7 @@
                                 <tr>
                                     <td class="auto-style15" style="font-family: arial, Helvetica, sans-serif; color: #293845">Fase: </td>
                                     <td class="auto-style13">
-                                        <asp:DropDownList ID="DropDownList1" runat="server" Height="35px" Width="175px">
+                                        <asp:DropDownList ID="ddlFase" runat="server" Height="35px" Width="200px" OnSelectedIndexChanged="ddlFase_SelectedIndexChanged">
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
@@ -46,7 +46,7 @@
                                         </p>
                                     </td>
                                     <td class="auto-style13">
-                                        <asp:TextBox ID="TextBox2" runat="server" BorderColor="#C2CCD4" BorderStyle="Solid" Height="35px" Width="175px"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox2" runat="server" BorderColor="#C2CCD4" BorderStyle="Solid" Height="35px" Width="200px"></asp:TextBox>
                                     </td>
                                 </tr>
                             </table>
@@ -56,7 +56,8 @@
                                 <tr>
                                     <td class="auto-style16" style="font-family: Arial, Helvetica, sans-serif; color: #293845">Cliente:</td>
                                     <td class="auto-style13">
-                                        <asp:TextBox ID="TextBox3" runat="server" BorderColor="#C2CCD4" BorderStyle="Solid" Height="35px" Width="175px"></asp:TextBox>
+                                        <asp:DropDownList ID="ddlCliente" runat="server" Height="35px" Width="200px">
+                                        </asp:DropDownList>
                                     </td>
                                 </tr>
                             </table>
