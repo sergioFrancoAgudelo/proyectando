@@ -43,6 +43,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="libConexionBD">
+      <HintPath>E:\ITM\2022-2\ProgramaciónSoftware\Practicas\Practica 4\libConexionBD\libConexionBD\bin\Debug\libConexionBD.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarCombos">
+      <HintPath>E:\ITM\2022-2\ProgramaciónSoftware\Practicas\Practica 4\libLlenarCombos\libLlenarCombos\bin\Debug\libLlenarCombos.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarGrids">
+      <HintPath>E:\ITM\2022-2\ProgramaciónSoftware\Practicas\Practica 4\libLlenarGrids\libLlenarGrids\bin\Debug\libLlenarGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="libLlenarRBList">
+      <HintPath>E:\ITM\2022-2\ProgramaciónSoftware\Practicas\Practica 4\libLlenarRBList\libLlenarRBList\bin\Debug\libLlenarRBList.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -84,6 +96,10 @@
     <Compile Include="Bienvenida.aspx.designer.cs">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
     </Compile>
+    <Compile Include="clases\clsCliente.cs" />
+    <Compile Include="clases\clsFase.cs" />
+    <Compile Include="clases\clsGenerales.cs" />
+    <Compile Include="clases\clsProyecto.cs" />
     <Compile Include="Proyecto.aspx.cs">
       <DependentUpon>Proyecto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
