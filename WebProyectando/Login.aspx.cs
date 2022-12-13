@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.SessionState;
 
+//Cambiar el using
 using BackProyectando;
 
 namespace WebProyectando
@@ -36,15 +37,19 @@ namespace WebProyectando
                 }
                 else
                 {
+                    //Cambiar la clase
                     Usuario usuario = new Usuario(username, pass);
-                    string code = usuario.iniciarSesión();
-                    if (code == "Success")
+                    int code = usuario.iniciarSesión();
+                    if (code != 0)
                     {
+                        Session["codEmpleado"] = code;
                         Session["usuario"] = usuario.NombreUsuario;
                         Response.Redirect("Bienvenida.aspx");
                     } else
                     {
                         this.lblMessage.Text = "Usuario y/o contraseña son incorrectos";
+                        this.txtUsername.Focus();
+                        return;
                     }
 
                 }
