@@ -40,7 +40,7 @@
                     <td class="auto-style2">
                         <h5 style="margin: 2% 2% 0% 2%; font-family: Arial, Helvetica, sans-serif; color: #4B5C6B;">Usuario</h5>
                         <p style="margin: 0% 2% 2% 2%; font-family: tahoma">
-                            <asp:TextBox ID="TextBox1" runat="server" BorderStyle="Inset" Height="33px" Width="192px" BorderColor="#B8C4CF"></asp:TextBox>
+                            <asp:TextBox ID="txtUsername" runat="server" BorderStyle="Inset" Height="33px" Width="192px" BorderColor="#B8C4CF"></asp:TextBox>
                         </p>
                     </td>
                 </tr>
@@ -48,7 +48,7 @@
                     <td class="auto-style2">
                         <h5 style="margin: 2% 2% 0% 2%; font-family: arial, Helvetica, sans-serif; color: #4B5C6B;">Contraseña</h5>
                         <p style="margin: 0% 2% 2% 2%; font-family: tahoma">
-                            <asp:TextBox ID="TextBox2" runat="server" BorderStyle="Inset" Height="33px" Width="192px" BorderColor="#B8C4CF"></asp:TextBox>
+                            <asp:TextBox ID="txtPass" runat="server" BorderStyle="Inset" Height="33px" Width="192px" BorderColor="#B8C4CF"></asp:TextBox>
                         </p>
                     </td>
                 </tr>
@@ -58,7 +58,7 @@
                             <tr>
                                 <td>
                                     <p class="auto-style4" style="margin: 12% 4% 8% 8%">
-                                        <asp:Button ID="btnIngresar" runat="server" BackColor="#6558F5" Font-Bold="True" Font-Names="Arial" ForeColor="White" Height="55px" Text="Ingresar" Width="133px" BorderColor="#6558F5" Font-Size="Large" BorderStyle="None" />
+                                        <asp:Button ID="btnIngresar" runat="server" BackColor="#6558F5" Font-Bold="True" Font-Names="Arial" ForeColor="White" Height="55px" Text="Ingresar" Width="133px" BorderColor="#6558F5" Font-Size="Large" BorderStyle="None" OnClick="btnIngresar_Click" />
                                     </p>
                                 </td>
                                 <td>
@@ -68,6 +68,11 @@
                                 </td>
                             </tr>
                         </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblMessage" runat="server" Font-Names="Arial" ForeColor="Red"></asp:Label>
                     </td>
                 </tr>
             </table>

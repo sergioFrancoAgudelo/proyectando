@@ -50,10 +50,12 @@ C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\We
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\roslyn\vbc.rsp
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\roslyn\VBCSCompiler.exe
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\BackProyectando.dll
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\BackProyectando.pdb
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.csproj.AssemblyReference.cache
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.csproj.CoreCompileInputs.cache
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.csproj.CopyComplete
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.dll
 C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.pdb
+C:\Users\chech\Desktop\itm\Semestre2022-2\ProgSw\ProyectoFinal\WebProyectando\WebProyectando\obj\Debug\WebProyectando.csproj.AssemblyReference.cache
