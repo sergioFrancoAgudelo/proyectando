@@ -87,6 +87,10 @@
     <Compile Include="Bienvenida.aspx.designer.cs">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
     </Compile>
+    <Compile Include="clases\clsCliente.cs" />
+    <Compile Include="clases\clsFase.cs" />
+    <Compile Include="clases\clsGenerales.cs" />
+    <Compile Include="clases\clsProyecto.cs" />
     <Compile Include="Proyecto.aspx.cs">
       <DependentUpon>Proyecto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
