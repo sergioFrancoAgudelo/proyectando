@@ -92,10 +92,17 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style3">
+                <asp:GridView ID="GridView1" runat="server">
+                </asp:GridView>
+            </td>
         </tr>
         <tr>
-            <td class="auto-style11"></td>
+            <td class="auto-style11">
+                <p style="font-family: arial, Helvetica, sans-serif; margin: 2%">
+                    <asp:Label ID="lblMensaje" runat="server" Font-Names="Arial" ForeColor="#BD34D1"></asp:Label>
+                </p>
+            </td>
         </tr>
     </table>
 </asp:Content>
