@@ -27,7 +27,7 @@
             height: 28px;
         }
         .auto-style5 {
-            width: 25%;
+            width: 34%;
         }
         .auto-style6 {
             width: 60%;
@@ -71,11 +71,11 @@
                                                 <td>
                                                     <asp:Menu ID="navPrincipal" runat="server" Orientation="Horizontal" Style="align-self: center" Font-Names="Arial">
                                                         <Items>
-                                                            <asp:MenuItem Selected="True" Text="Item1" Value="navItem1"></asp:MenuItem>
-                                                            <asp:MenuItem Text="Item2" Value="navItem2"></asp:MenuItem>
-                                                            <asp:MenuItem Text="Item3" Value="navItem3"></asp:MenuItem>
-                                                            <asp:MenuItem Text="Item4" Value="navItem4"></asp:MenuItem>
-                                                            <asp:MenuItem Text="Item5" Value="navItem5"></asp:MenuItem>
+                                                            <asp:MenuItem Selected="True" Text="Proyecto" Value="navProyecto"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Módulo" Value="navModulo"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Detalle" Value="navDetalle"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Empresa" Value="navEmpresa"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Empleado" Value="navEmpleado"></asp:MenuItem>
                                                         </Items>
                                                         <StaticMenuItemStyle HorizontalPadding="10px" Font-Names="Arial" Font-Underline="False" ForeColor="#293845" />
                                                         <StaticSelectedStyle BorderColor="#FF3399" BorderStyle="None" Font-Underline="True" ForeColor="#BD34D1" Font-Bold="True" Font-Overline="False" />
