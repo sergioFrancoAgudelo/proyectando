@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bienvenida.aspx" />
+    <Content Include="Proyecto_Modulo.aspx" />
     <Content Include="Proyecto.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Imagenes\logoHorizontal.png" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="Bienvenida.aspx.designer.cs">
       <DependentUpon>Bienvenida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto_Modulo.aspx.cs">
+      <DependentUpon>Proyecto_Modulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyecto_Modulo.aspx.designer.cs">
+      <DependentUpon>Proyecto_Modulo.aspx</DependentUpon>
     </Compile>
     <Compile Include="clases\clsCliente.cs" />
     <Compile Include="clases\clsFase.cs" />
